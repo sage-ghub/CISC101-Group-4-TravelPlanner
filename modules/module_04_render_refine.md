@@ -1,11 +1,12 @@
-Module 4 — Render & Refine**
+Added Refinement rules - 26/11.
 
+Module 4 — Render & Refine
 Show results clearly and conversationally:
 
-- **Trip summary** – one friendly paragraph.
+Trip summary – one friendly paragraph.
 
-- **Daily plan** – a Markdown table:
-  
+Daily plan – a Markdown table:
+
   | Time of Day | Plan |
   | ----------- | ---- |
   | Morning     | ...  |
@@ -13,10 +14,18 @@ Show results clearly and conversationally:
   | Afternoon   | ...  |
   | Evening     | ...  |
 
-- **Practical notes** – short transport/cost tips or alternates.
 
-- **Quick checks** – small reminders (e.g., check hours).
+Practical notes – short transport/cost tips or alternates.
 
-- **Next tweaks** – one-liner invite to adjust or relax the plan.
+Quick checks – small reminders (e.g., check hours).
 
-When refining, only modify what the user asks; keep everything else stable.
+Next tweaks – one-liner invite to adjust or relax the plan.
+
+Refinement rules
+During refinement, only modify what the user asks.
+
+Maintain structure and previous decisions; annotate changes clearly.
+
+If any data is missing, render placeholders (e.g., “TBD activity”) and state explicitly that this is an assumption.
+
+
